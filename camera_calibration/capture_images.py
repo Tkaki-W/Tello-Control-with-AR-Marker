@@ -71,7 +71,6 @@ thread = threading.Thread(target=udp_receiver, args=())
 thread.daemon = True
 thread.start()
 
-threading.Thread(target=detect_checker_board, daemon=True).start()
 
 
 # コマンドモード
@@ -94,7 +93,9 @@ time.sleep(1)
 
 
 while True:
-    _, frame = cap.read()
+    for _ in range(50):  # バッファを捨てる
+        ret, frame = cap.read()
+    
     copyFrame = frame.copy()
     gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
 
@@ -119,6 +120,7 @@ while True:
 
     #cv.imshow("frame", frame)
     # copyframe; without augmentation
+    cv.imshow("frame", frame)
     cv.imshow("copyFrame", copyFrame)
 
     key = cv.waitKey(1)
