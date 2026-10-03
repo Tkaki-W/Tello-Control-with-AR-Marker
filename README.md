@@ -6,10 +6,11 @@ Tello のカメラで ArUco マーカーを検出し、**距離・向き・横�
 <!-- デモ動画：GitHub の編集画面に mp4 をドラッグ&ドロップすると URL が生成されるので、下の行と置き換えてください -->
 <p align="center">
   <a href="https://youtu.be/qgd4qfcZtI">
-    <img src="https://i9.ytimg.com/vi/qgd4qfcZtIM/mqdefault.jpg?sqp=CNDMgdYG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGMgYyhjMA8=&rs=AOn4CLB-Uq9qK2Eu2MliSgMbBelKWVo2rg" width="640" alt="デモ動画">
+<img width="896" height="483" alt="スクリーンショット 2026-10-03 112806" src="https://github.com/user-attachments/assets/a1daf832-844a-4f0f-aa39-fb02886891d7" />
+
   </a>
 </p>
-
+<h2>こちらをクリックして動画を参照してください</h2>
 ## 仕組み
 
 ```mermaid
