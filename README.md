@@ -4,7 +4,11 @@ Tello のカメラで ArUco マーカーを検出し、**距離・向き・横�
 マーカーの正面・一定距離を保つように、ドローンが自動で位置を合わせ続けます。
 
 <!-- デモ動画：GitHub の編集画面に mp4 をドラッグ&ドロップすると URL が生成されるので、下の行と置き換えてください -->
-<p align="center">🎬 <i>（ここにデモ動画）</i></p>
+<p align="center">
+  <a href="https://youtu.be/qgd4qfcZtI">
+    <img src="https://i9.ytimg.com/vi/qgd4qfcZtIM/mqdefault.jpg?sqp=CNDMgdYG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGMgYyhjMA8=&rs=AOn4CLB-Uq9qK2Eu2MliSgMbBelKWVo2rg" width="640" alt="デモ動画">
+  </a>
+</p>
 
 ## 仕組み
 
