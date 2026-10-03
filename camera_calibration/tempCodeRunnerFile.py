@@ -1,0 +1,1 @@
+#↑↑↑End of capturing of tello images

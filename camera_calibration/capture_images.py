@@ -90,6 +90,7 @@ if not cap.isOpened():
     cap.open(TELLO_CAMERA_ADDRESS)
 
 time.sleep(1)
+#↑↑↑End of capturing of tello images
 
 
 while True:
